@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0px;
+    font-weight: 400;
+    background-image: url(https://thefulldomeblog.files.wordpress.com/2013/11/example_render.jpg);
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header {
+    
+}
+
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.text {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 87px;
+    color: #fff;
+}
+.text>h1:hover{
+    font-size: 36px;
+    transition-duration: 0.5s;
+}
+
+.menu__list {
+    display: flex;
+    list-style: none;
+    padding: 5px;
+    text-align: center;
+}
+
+.menu__list li {
+    margin-left: 0 auto px;
+    padding: 10px;
+}
+
+.menu__list a {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    padding: 5px;
+}
+
+.menu__list a:hover{
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+.top {
+    background-image: url(../img/bg-text.png);
+    background-position: 0 -175px;
+    background-size: cover;
+    margin-bottom: 0px;
+    height: 175px;
+}
+
+.info {
+    text-align: center;
+    font-family: 'Shippori Mincho', serif;
+    padding: 40px 0px;
+}
+.info>h2{
+    padding: 10px 0px;
+}
+
+main {
+    margin: 0;
+    
+}
+
+.strelka{
+    width: 42px;
+    height: 42px;
+    position: fixed;
+    position: 100% 0;
+    bottom: 2%;
+    right: 0%;
+}
+
+.planets {
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+}
+
+.planet__text {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    color: #fff;
+    margin-left: 0px;
+    margin: 10px;
+}
+
+.planet {
+    font-family: 'Shippori Mincho', serif;
+    width: 360px;
+    height: 620px;
+    margin: 10px;
+    display: inline-block;
+    border: 2px solid #fff;
+}
+
+.planet:hover{
+    border-radius: 30px;
+    transition-duration: 0.5s;
+}
+
+.planet h3 {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    font-size: 25px;
+}
+
+img {
+    height: 350px;
+    width: 350px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.planet__info {
+    display: flex;
+    font-size: 18px;
+    color: #fff;
+    padding: 3px;
+}
+
+footer {
+    background-color: #000;
+}
+
+.down__info {
+    max-width: 1170px;
+    height: 300px;
+}
+
+.descr {
+    padding-top: 15px;
+    display: flex;
+    font-size: 15px;
+    color: #fff;
+}
